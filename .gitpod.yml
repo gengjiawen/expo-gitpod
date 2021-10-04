@@ -1,3 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: yarn 
+    command: yarn start
 
 ports:
   - port: 9000
