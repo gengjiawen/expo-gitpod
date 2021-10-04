@@ -2,7 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: yarn 
+  - init: yarn global add expo-cli && yarn 
     command: yarn start
 
 ports:
