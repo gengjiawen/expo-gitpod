@@ -1,4 +1,4 @@
-FROM reactnativecommunity/react-native-android:4.2
+FROM reactnativecommunity/react-native-android:5.2
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
