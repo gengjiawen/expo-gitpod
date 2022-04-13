@@ -2,7 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: yarn global add expo-cli && yarn 
+  - init: sudo npm i -g expo-cli && yarn 
 
 ports:
   - port: 9000
