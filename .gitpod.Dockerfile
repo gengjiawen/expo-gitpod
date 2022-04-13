@@ -8,7 +8,7 @@ FROM reactnativecommunity/react-native-android:4.2
 RUN apt update && apt install fish -y
 RUN chmod 777 -R /opt/android
 
-RUN npm i -g n && n latest
+RUN npm i -g n && n lts
 
 ### Gitpod user ###
 # '-l': see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
