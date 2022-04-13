@@ -3,7 +3,6 @@ image:
 
 tasks:
   - init: yarn global add expo-cli && yarn 
-    command: yarn start
 
 ports:
   - port: 9000
