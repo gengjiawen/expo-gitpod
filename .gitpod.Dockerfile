@@ -6,7 +6,6 @@ FROM reactnativecommunity/react-native-android:5.2
 #
 
 RUN apt update && apt install fish -y
-RUN chmod 777 -R /opt/android
 
 RUN npm i -g n && n lts
 
