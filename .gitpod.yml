@@ -2,7 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: sudo npm i -g expo-cli && yarn 
+  - init: sudo npm i -g expo-cli @expo/ngrok@next && yarn 
+  - command: yarn gitpod
   - command: npx browserslist@latest --update-db
 
 ports:
