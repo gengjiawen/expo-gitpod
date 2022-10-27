@@ -3,6 +3,7 @@ image:
 
 tasks:
   - init: sudo npm i -g expo-cli && yarn 
+  - command: npx browserslist@latest --update-db
 
 ports:
   - port: 9000
